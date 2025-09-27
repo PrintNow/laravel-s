@@ -106,9 +106,9 @@ Table of Contents
 
 | Dependency | Requirement |
 | -------- | -------- |
-| [PHP](https://secure.php.net/) | `>=8.2` `Recommend 8.2` |
-| [Swoole](https://www.swoole.co.uk/) | `>=5.0` `Recommend 5.1.1` |
-| [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=10` `Recommend 10` |
+| [PHP](https://secure.php.net/) | `>=8.2` `Enable extension intl` |
+| [Swoole](https://www.swoole.co.uk/) | `>=5.0` |
+| [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=10` |
 
 ## Install
 

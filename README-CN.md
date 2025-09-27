@@ -110,9 +110,9 @@
 
 | 依赖 | 说明 |
 | -------- | -------- |
-| [PHP](https://www.php.net/) | `>=8.2` `推荐8.2` |
-| [Swoole](https://www.swoole.com/) | `>=5.0` `推荐5.1.1` |
-| [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=10` `推荐10` |
+| [PHP](https://www.php.net/) | `>=8.2` `启用扩展intl` |
+| [Swoole](https://www.swoole.com/) | `>=5.0` |
+| [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=10` |
 
 ## 安装
 
