@@ -2,6 +2,8 @@
 
 namespace Hhxsv5\LaravelS\Swoole\Proxy;
 
+use Hhxsv5\LaravelS\Swoole\Server;
+
 /**
  * DynamicPropertiesTrait solves the issue that PHP 8.2+ does not allow dynamic property creation.
  * Provides functionality for storing and accessing dynamic properties.
@@ -26,7 +28,7 @@ trait DynamicPropertiesTrait
     public function __set($name, $value)
     {
         // If property name ends with 'Table', store it in dynamic properties
-        if (str_ends_with($name, 'Table')) {
+        if (str_ends_with($name, Server::TABLE_PROPERTY_SUFFIX)) {
             $this->dynamicProperties[$name] = $value;
             return;
         }
