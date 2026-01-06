@@ -244,7 +244,6 @@ class Server
             }
             $t->create();
             $name .= self::TABLE_PROPERTY_SUFFIX; // Avoid naming conflicts
-            // Use proxy object to store dynamic properties for PHP 8.2+ compatibility
             $this->swoole->{$name} = $t;
         }
     }
